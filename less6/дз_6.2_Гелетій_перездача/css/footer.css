@@ -1,0 +1,20 @@
+
+
+footer .container > h3 {
+    font-weight: 500;
+    font-size: 21px;
+    font-family: Roboto, serif;
+    line-height: 25px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+footer .container > p {
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Roboto, serif;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-top: 20px;
+}

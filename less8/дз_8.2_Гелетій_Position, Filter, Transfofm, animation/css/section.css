@@ -1,0 +1,43 @@
+.section_about {
+    padding: 112px 0 100px 0;
+}
+
+.section_work {
+    padding: 100px 0 57px 0;
+}
+
+
+
+.section_head {
+    width: 403px;
+    height: 30px;
+    margin: 0 auto 50px;
+
+}
+
+.section_head h2 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 32px;
+    font-family: Roboto, serif;
+    line-height: 38px;
+    color: #000000;
+}
+
+.section_text {
+    width: 540px;
+    height: 67px;
+    margin: 0 auto;
+
+}
+
+.section_text p {
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-family: Roboto, serif;
+    line-height: 26px;
+    color: #727272;
+    word-break: keep-all;
+    margin-right: 0;
+}

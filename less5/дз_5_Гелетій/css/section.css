@@ -1,0 +1,28 @@
+section {
+    width: 70%;
+    margin-left: 30%;
+
+}
+
+.icon {
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: #5e1010;
+    text-transform: uppercase;
+}
+
+.section_1_header {
+    background-image: url("../images/NBA_finals_2006.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+.text {
+    text-shadow: #E0E0E0 2px 1px;
+}

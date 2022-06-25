@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Search</title>
+</head>
+    <body>
+        <h1>Поиск</h1>
+        <form action="https://fom.in.ua/echo" method="get">
+            <label>Кузов
+                <select name="kuzov">
+                    <option value="all">все варианты</option>
+                    <option value="sedan">седан</option>
+                    <option value="pickap">пикап</option>
+                    <option value="hetchback">хетчбек</option>
+                </select>
+            </label>
+            <br><br>
+            <label>Марка
+                <select name="marka">
+                    <option value="all">все варианты</option>
+                    <option value="vw">вольксваген</option>
+                    <option value="audi">ауди</option>
+                    <option value="opel">опель</option>
+                </select>
+            </label>
+            <br><br>
+            <label>Страна производитель
+                <select name="country">
+                    <option value="all">все варианты</option>
+                    <option value="de">Германия</option>
+                    <option value="tr">Турция</option>
+                    <option value="sk">Словакия</option>
+                </select>
+            </label>
+            <br><br>
+            <label>
+                <span>Цена от</span>
+                <input class="class_input" type="number" name="price_from" min="2" max="20" placeholder="тыс. евро">
+                <span>до</span>
+                <input class="class_input" type="number" name="price_to" min="3" max="21" placeholder="тыс. евро">
+            </label>
+            <br><br>
+            <label>
+                <span>Год выпуска от</span>
+                <input class="class_input_year" type="number" name="year_from" min="2010" max="2021">
+                <span>до</span>
+                <input class="class_input_year" type="number" name="year_to" min="2011" max="2022">
+            </label>
+            <br><br>
+            <div class="condition">
+                <span>Состояние:</span><br>
+                <label class="condition_broken">
+                    <input type="checkbox" name="broken">Битая
+                </label>
+                <label class="condition_credit">
+                    <input type="checkbox" name="credit">В кредите
+                </label>
+
+                <label class="condition_uncleared">
+                    <input type="checkbox" name="uncleared">Нерастаможенная
+                </label>
+                <label class="condition_stollen">
+                <input type="checkbox" name="stollen">Воровонная
+                </label>
+            </div>
+            <br>
+            <div>
+                <span>Тип топлива</span><br>
+                <label>
+                    <input type="radio" name="fuel_type" id="fuel_type1" value="petrol">Бензин
+                </label>
+                <label>
+                    <input type="radio" name="fuel_type" id="fuel_type2" value="disel">Дизель
+                </label>
+                <label>
+                    <input type="radio" name="fuel_type" id="fuel_type3" value="gas">Газ
+                </label>
+                <label>
+                    <input type="radio" name="fuel_type" id="fuel_type4" value="electro">Электро
+                </label>
+           </div>
+            <br>
+            <label>Тип коробки передач
+                <select name="transmition">
+                    <option value="auto">автомат</option>
+                    <option value="mech">механическая</option>
+                </select>
+            </label>
+            <br><br>
+            <label>Цвет
+                <select name="color">
+                    <option value="all">без разницы</option>
+                    <option value="red">красный</option>
+                    <option value="black">черный</option>
+                    <option value="blue">синий</option>
+                </select>
+            </label>
+            <br><br>
+            <div>
+                <span>Комфорт:</span><br>
+                <label>
+                    <input type="checkbox" name="lux">Люкс
+                </label>
+                <label>
+                    <input type="checkbox" name="leather">Кожанный солон
+                </label>
+                <label>
+                    <input type="checkbox" name="condition">Кондиционер
+                </label>
+                <label>
+                    <input type="checkbox" name="computer">бортовой компьютер
+                </label>
+            </div>
+            <br><br>
+            <button type="submit">Отправить</button>
+        </form>
+    </body>
+</html>

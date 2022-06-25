@@ -1,0 +1,27 @@
+@import "header.css";
+@import "footer.css";
+@import "aside.css";
+@import "section.css";
+@import "container.css";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@font-face {
+    font-family: 'nba';
+    src: url("../font/BebasNeue-Regular.ttf") format("truetype");
+    font-weight: auto;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/wallpaper_1.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+

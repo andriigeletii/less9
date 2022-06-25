@@ -1,0 +1,23 @@
+@import "header.css";
+@import "footer.css";
+@import "myframework.css";
+@import "reset.css";
+@import "main.css";
+@import "box.css";
+@import "logo.css";
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+}

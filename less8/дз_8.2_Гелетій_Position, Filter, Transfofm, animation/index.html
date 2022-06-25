@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://kit.fontawesome.com/b313d5748f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/index.css">
+        <title>Document</title>
+        <script
+                src="https://code.jquery.com/jquery-3.6.0.min.js"
+                integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+                crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="bg_gray verticalPadding80">
+            <div class="container">
+                <nav class="header_nav">
+                    <a href="#">главная</a>
+                    <a href="#">об авторе</a>
+                    <a href="#">работы</a>
+                    <a href="#">процесс</a>
+                    <a href="#">контакты</a>
+                </nav>
+            </div>
+            <div class="advertising col2 verticalPadding30">
+                Реклама
+            </div>
+        </header>
+        <main>
+            <section class="banner topPadding80 bg_gray">
+                <div class="container">
+                    <div class="marine col7">
+                        <h2 class="verticalPadding50">Хочу на море</h2>
+                        <div class="sea col9">
+                            <i class="fa-solid fa-sailboat"></i>
+                        </div>
+                        <i class="fa-solid fa-sun fr"></i>
+                    </div>
+                    <div class="banner_text">
+                        <h1>Дизайн и верстка</h1>
+                        <p>
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        </p>
+                        <a href="#" id="CalModal">Написать мне</a>
+<!--                        <span id="CalModal">Написать мне</span>-->
+                        <div class="modal" id="modal">
+                            <div class="modal_body">
+                                <span class="close" id="close"><i class="fa-solid fa-circle-xmark"></i></span>
+                                <h2 class="pb20">Пожалуйста, заполните данные для обратной связи</h2>
+                                <form class="">
+                                    <label class="pb10">
+                                        <span class="">Имя:</span>
+                                        <input type="text" class="col9 fr">
+                                       </label>
+                                    <div class="clearfix"></div>
+                                    <label class="pb10">
+                                        <span>E-mail:</span>
+                                        <input type="email" class="col9 fr">
+                                    </label>
+                                    <div class="clearfix"></div>
+                                    <label class="pb10">
+                                        <span class="">Tel:</span>
+                                        <input type="tel" class="col9 fr">
+                                    </label>
+                                    <div class="clearfix"></div>
+                                    <button type="submit" id="submit">Отправить</button>
+                                </form>
+
+                            </div>
+                            </div>
+                        <script>
+                            $(document).ready(function () {
+                                $("#CalModal").on('click', function () {
+                                    $('#modal').toggleClass('show');
+                                });
+                                $("#close").on('click', function () {
+                                    $('#modal').toggleClass('show');
+                                });
+                            })
+                        </script>
+
+
+                    </div>
+                </div>
+            </section>
+            <section class="bg_white section_about">
+                <div class="container">
+                    <div class="section_head">
+                        <h2>Обо мне</h2>
+                    </div>
+                    <div class="section_text">
+                        <p>
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="bg_blue verticalPadding100">
+                <div class="container">
+                    <div class="card rightMargin47">
+                        <img src="media/project.png" alt="project">
+                        <p>
+                            <span>40+</span>
+                            проектов
+                        </p>
+                    </div>
+                <div class="card rightMargin47">
+                        <img src="media/project.png" alt="project">
+                        <p>
+                            <span>40+</span>
+                            проектов
+                        </p>
+                    </div>
+                <div class="card rightMargin47">
+                        <img src="media/project.png" alt="project">
+                        <p>
+                            <span>40+</span>
+                            проектов
+                        </p>
+                    </div>
+                <div class="card rightMargin47">
+                        <img src="media/project.png" alt="project">
+                        <p>
+                            <span>40+</span>
+                            проектов
+                        </p>
+                    </div>
+                <div class="card rightMargin47">
+                        <img src="media/project.png" alt="project">
+                        <p>
+                            <span>40+</span>
+                            проектов
+                        </p>
+                    </div>
+                <div class="card">
+                        <img src="media/project.png" alt="project">
+                        <p>
+                            <span>40+</span>
+                            проектов
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="bg_white section_work">
+                <div class="container">
+                    <div class="section_head">
+                        <h2>Как я работаю</h2>
+                    </div>
+                    <div class="section_text">
+                        <p>
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="media">
+                        <video controls poster="media/poster.png">
+                            <source src="media/less6.mp4">
+                        </video>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg_blue verticalPadding50">
+            <div class="container">
+                <h3>
+                    Иванов Иван
+                </h3>
+                <p>
+                    (с) 2018. Все права защищены.
+                </p>
+            </div>
+        </footer>
+    </body>
+
+</html>

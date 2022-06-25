@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="selectors.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Какими бывают селекторы?</h1>
+    <table>
+        <thead>
+            <th class="th1">
+                Номер по порядку
+            </th>
+            <th class="th2" colspan="2">
+                Селектор
+            </th>
+            <th class="th3">
+                Описание
+            </th>
+            <th class="th4">
+                "Вес"
+            </th>
+        </thead>
+        <tr>
+            <td rowspan="4">1</td>
+            <td rowspan="4" class="td1">Теги</td>
+            <td>html, body, div</td>
+            <td rowspan="4">
+                <p>
+                    Выбраны будет все элементы, которые находятся внутри данных елементов, за исключением тех, для которых заданы другие селекторы, например класс или id.
+                </p>
+            </td>
+            <td rowspan="4">1</td>
+        </tr>
+        <tr>
+            <td>p, span, table, a</td>
+        </tr>
+        <tr>
+            <td>другие встроенные теги</td>
+        </tr>
+        <tr>
+            <td>любые придуманные теги</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan="2">Классы ("class")</td>
+            <td>Выбраны будут все элементы для которых задан соответствующий клас, за исключением тех, для которых заданы другие селекторы, например класс или id.</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td colspan="2">id</td>
+            <td>Выбраны будут все элементы в заданном id. Данный селектор можно применить только один раз</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan="2">style</td>
+            <td>Как и id, в отличии от id - не задаётся через css-файл, инлайновый селектор</td>
+            <td>1000</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td colspan="2">Свойство "!important"</td>
+            <td>Дополнительно свойство для повышения веса выбранного свойства элемента</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td colspan="2">Комбинации селекторов</td>
+            <td>Указывают особенность/последовательность применнения</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td colspan="2">*</td>
+            <td>Обращается ко всем элементам</td>
+            <td>0</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

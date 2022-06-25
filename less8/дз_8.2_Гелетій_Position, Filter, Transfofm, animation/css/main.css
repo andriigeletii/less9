@@ -1,0 +1,23 @@
+.card span {
+    display: block;
+    font: 500 21px 'Roboto';
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font: 400 16px 'Roboto';
+    margin-left: 20px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.card img {
+    float: left;
+}
+
+.card {
+    display: inline-block;
+}
+
+

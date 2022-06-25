@@ -1,0 +1,39 @@
+.footer_popular h2 {
+    font: 500 16px 'Roboto', sans-serif;
+    line-height: 23px;
+    vertical-align: top;
+
+}
+
+.footer_popular ul {
+    border-top: 1px solid #EFEFEF;
+}
+
+.footer_popular li {
+    font: 400 12px 'Roboto', sans-serif;
+    line-height: 28px;
+}
+
+.footer_contacts_sotial a {
+    padding: 15px;
+    color: #F13C6E;
+    font-size: 48px;
+}
+
+
+
+.footer_sign p {
+    font: 400 12px 'Roboto', sans-serif;
+    color: #828282;
+}
+
+.footer_sign a:link {
+    cursor: pointer;
+    text-decoration: none;
+    font: 400 12px 'Roboto', sans-serif;
+    color: #828282;
+}
+
+.border_top_grey {
+    border-top: 1px solid #EFEFEF;
+}

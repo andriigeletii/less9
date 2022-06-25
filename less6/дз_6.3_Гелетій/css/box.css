@@ -1,0 +1,51 @@
+.box {
+    color: #FFFFFF;
+    display: block;
+}
+
+.box p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    padding-top: 25px;
+    padding-left: 40px;
+
+
+}
+
+.box h2 {
+    font: 500 21px 'Roboto', sans-serif;
+    text-align: left;
+    line-height: 25px;
+    padding-top: 35px;
+    padding-left: 40px;
+}
+
+.box input {
+    margin-left: 40px;
+    border-radius: 30px;
+}
+
+.box img {
+    margin-right: 45px;
+    padding-top: 53px;
+}
+
+.box a {
+    margin-left: 40px;
+    padding: 9px 29px;
+}
+
+.box a:link {
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+

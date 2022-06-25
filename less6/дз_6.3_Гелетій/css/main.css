@@ -1,0 +1,82 @@
+.main_nav {
+    padding: 30px 217px;
+    height: auto;
+}
+
+.main_nav > a:link {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+.section1 {
+    max-height: 100%;
+    background-image: url("../image/main_ing.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.section1 > div > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.sec1_input {
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 5px 26px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 80px;
+}
+
+.card p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    padding: 20px 30px ;
+}
+
+.card h2 {
+    font: 500 21px 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.price > a:link {
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: center;
+    padding: 9px 40px;
+    background-color: #F13C6E;
+    border-radius: 30px;
+}

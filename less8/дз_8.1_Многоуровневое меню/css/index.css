@@ -1,0 +1,73 @@
+@import "reset.css";
+
+.border {
+    border-bottom: 5px solid blue;
+    font-size: 0;
+}
+
+.products > li {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+.item > li {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    background-color: black;
+    position: relative;
+    font: 400 12px 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+li:hover {
+    background-color: blue;
+    color: white;
+}
+
+.products li {
+    display: block;
+}
+
+.item li {
+    display: block;
+}
+
+.products {
+    transform: scale(0);
+    transition: all ease-in-out 0.5s;
+    top: 110%;
+    left: 0;
+    width: 170%;
+}
+
+li:hover a+ul.products {
+    transform: scaleY(1);
+
+}
+
+.item {
+    transition: all ease-in-out 0.5s;
+    left: 100%;
+    top: -3%;
+    width: 100%;
+    transform: scale(0);
+}
+
+.products li:hover a+ul.item {
+    transform: scaleY(1);
+}

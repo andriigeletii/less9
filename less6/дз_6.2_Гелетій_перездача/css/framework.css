@@ -1,0 +1,31 @@
+.bg_gray {
+    background-color: #EEEFF1;
+}
+
+.verticalPadding80 {
+    padding: 80px 0;
+}
+
+.verticalPadding100 {
+    padding: 100px 0;
+}
+
+.verticalPadding50 {
+    padding: 50px 0;
+}
+
+.topPadding80 {
+    padding-top: 80px;
+}
+
+.rightMargin47 {
+    margin-right: 47px;
+}
+
+.bg_white {
+    background-color: #FFFFFF;
+}
+
+.bg_blue {
+    background-color: #34547A;
+}

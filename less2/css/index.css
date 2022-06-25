@@ -1,0 +1,88 @@
+.main_body {
+    font-size: large;
+}
+td, table, th {
+    border: 6px solid #000;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-spacing: 10px;
+}
+.th1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.tab1 {
+    border-bottom: none;
+    border-collapse: collapse;
+}
+.history {
+    font: bold 2rem "Calibri"
+}
+.finals_history {
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 20px;
+    word-break: break-word;
+}
+.finals {
+    text-shadow: 1px 1px #5e1010;
+    font-size: 2rem;
+    border-color: #5e1010;
+    border-style: dotted;
+    border-width: thick;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underlined {
+    text-decoration: underline;
+}
+.line_through {
+    text-decoration: line-through;
+}
+.tab2 {
+    border-top: none;
+}
+.contact {
+    width: 28%;
+}
+.galery {
+    width: 44%;
+    letter-spacing: 3px;
+}
+.autor {
+    width: 28%;
+}
+.body_about {
+    background-image: url("../images/NBAConferenceFinals.jpg");
+    color: #a8aef1;
+}
+.body_about img {
+    opacity: 85%;
+}
+.tab_about1 {
+        border-bottom: none;
+}
+.tab_about2 {
+    border-top: none;
+    text-shadow: 1px 1px #000000;
+}
+.back_home {
+    width: 28%;
+    border-color: blueviolet;
+    border-style: dashed;
+    border-width: thick;
+}
+.west {
+    color: #f30202;
+    font-size: 2rem;
+}
+.east {
+    color: #f30202;
+    font-size: 2rem;
+}

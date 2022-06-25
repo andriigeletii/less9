@@ -1,0 +1,39 @@
+aside {
+    height: auto;
+    width: 25%;
+    position: absolute;
+    padding: 20px 10px;
+    font-family: 'Pacifico', cursive;
+    background: rgb(255,0,0);
+    background: -moz-linear-gradient(140deg, rgba(255,0,0,1) 0%, rgba(13,17,194,0.5046393557422969) 100%);
+    background: -webkit-linear-gradient(140deg, rgba(255,0,0,1) 0%, rgba(13,17,194,0.5046393557422969) 100%);
+    background: linear-gradient(140deg, rgba(255,0,0,1) 0%, rgba(13,17,194,0.5046393557422969) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0000",endColorstr="#0d11c2",GradientType=1);
+    }
+
+.aside_text {
+    border: 1px solid red;
+    height: 400px;
+    overflow: scroll;
+    background-color: rgba(236, 7, 7, 0.45);
+    color: rgba(0,0,0,50%);
+
+}
+
+.advertising {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    transition: ease-in-out all 5s;
+    border-style: dotted;
+    border-color: darkgreen;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.advertising:hover {
+    color: limegreen;
+}
+
+

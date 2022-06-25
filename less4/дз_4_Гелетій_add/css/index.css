@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+.homework {
+    width: 70%;
+    margin: 0 auto;
+}
+.header > div {
+    display: inline-block;
+    font-size: 0;
+    margin-right: 20px;
+}
+
+a {
+    font-size: 1rem;
+}
+.header {
+
+}
+
+a:link {
+    color: cornflowerblue;
+    font-family: Calibri, serif;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: -0.9px;
+}
+
+a.red_link:link {
+    color: #b41818;
+    font-family: Calibri, serif;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+    letter-spacing: -0.9px;
+}
+
+.main {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+.main_title {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.9px;
+    font-family: Arial, serif;
+    margin-top: 20px;
+    padding-top: 40px;
+    }
+
+.main_desc {
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 0.5rem;
+    font-family: Arial, serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.about {
+    margin: 2% 10%;
+    background-color: #abc4ee;
+    padding: 10px 0 10px 10px;
+    font-size: 1.2rem;
+    font-family: Arial, serif;
+    color: #2b4c83;
+    font-weight: 600;
+}
+
+.about_text {
+    margin: 2% 10%;
+    font-size: 0.8rem;
+    font-family: Arial, serif;
+    color: black;
+    font-weight: 200;
+    text-shadow: #2b4c83 0.05rem 0;
+}
+
+.container{
+    margin: 4% 10%;
+    font-size: 0;
+}
+
+.container > div {
+    display: inline-block;
+    font-size: 0;
+    width: 22%;
+}
+
+.card_img > img {
+    max-width: 100%;
+}
+
+.card_title {
+    padding: 10px 0;
+    font-size: 0.8rem;
+    font-family: Arial, serif;
+    color: black;
+    font-weight: 200;
+    text-shadow: #2b4c83 0.05rem 0;
+}
+
+.card_left {
+    margin-right: 2%;
+}
+
+.card_center {
+    margin: 0 2%;
+}
+
+.card_right {
+    margin-left: 2%;
+}

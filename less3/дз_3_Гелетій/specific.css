@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+}
+h2 {
+    color: #dad10e;
+}
+div {
+    color: blueviolet;
+}
+p {
+    color: #a8aef1;
+}
+div p {
+    color: aqua;
+}
+.cl1 {
+    color: #de1155;
+}
+#id1 {
+    color: brown;
+}
+body div div p {
+    color: darkgreen;
+}
+div > p + p {
+    color: cornflowerblue;
+}
+p + a {
+    color: gold;
+}
+p ~ a {
+    color: #d217e0;
+}
