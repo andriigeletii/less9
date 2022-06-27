@@ -1,0 +1,23 @@
+.navList {
+    background-color: #95161f;
+    list-style: none;
+    display: inline-block;
+    margin-left: auto;
+}
+
+.navListLink {
+    color: #ffffff;
+    font: 700 1rem / 0.875rem "Arial";
+    display: block;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.navListItem {
+    float: left;
+}
+
+.nav .container {
+    text-align: right;
+    background-color: #95161f;
+}

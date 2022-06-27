@@ -1,0 +1,81 @@
+@import "header.css";
+@import "reset.css";
+@import "nav.css";
+
+body, html {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 982px;
+    margin: 0 auto;
+}
+
+.firstRedletter:first-letter {
+    color: #875f66;
+}
+
+.ttu {
+    text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bannerWrapper {
+    position: relative;
+}
+
+.bannerWrapper img {
+    width: 100%;
+}
+
+.bannerText {
+    position: absolute;
+    top: 39px;
+    left: 40px;
+}
+
+.bannerText h1 {
+    font-size: 1.875rem;
+    margin: 0;
+    color: #a5adb8;
+
+}
+
+.bannerTextBlack {
+    color: #282d33;
+    font: 700 1.125rem "Arial";
+    margin-bottom: 18px;
+}
+
+.bannerText h2 {
+    font: 700 1.125rem "Arial";
+    margin: 0;
+    color: #a5adb8;
+    margin-bottom: 8px;
+}
+
+.bannerTextWhite {
+    max-width: 490px;
+    max-height: 80px;
+    overflow: hidden;
+    color: #d9dcdf;
+    font: 400 0.875rem "Arial";
+    margin-bottom: 18px;
+}
+
+
