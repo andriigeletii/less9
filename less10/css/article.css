@@ -1,0 +1,107 @@
+article {
+    float: left;
+    margin-left: 25px;
+    max-width: 695px;
+
+}
+
+article p {
+    font: 400 0.875rem / 1.25rem "Arial";
+    color: #5c646e;
+    padding-bottom: 20px;
+}
+
+article a {
+    color: #95161f;
+}
+
+article h2 {
+    font: bold 1.5rem "Arial";
+    color: #ccd0d6;
+    padding-bottom: 15px;
+}
+
+.articlePanel {
+    display: inline-block;
+    text-align: center;
+}
+
+.articlePanel > div{
+    display: inline-block;
+    text-align: left;
+}
+
+.articlePanelCardTitle {
+    font: 700 1.125rem "Arial";
+    padding-bottom: 14px;
+}
+
+.articlePanelCardLink img {
+    border: 1px solid #ffffff;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 35%);
+    margin-right: 10px;
+}
+
+.articleMainTitle {
+    padding: 28px 0 20px;
+}
+
+.articleMain > div {
+    display: inline-block;
+}
+
+.articleMainCardList h4 {
+    font: 400 0.875rem / 1.5rem "Arial";
+    color: #5c646e;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.35);
+}
+
+.articleMainCardList, .liWrapper > li {
+    font: 400 0.875rem / 1.5rem "Arial";
+    color: #5c646e;
+
+}
+
+h4 span {
+    font: 400 0.75rem / 1.5rem "Arial";
+    color: #5c646e;
+    background-color: #dedede;
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+/*ul {*/
+/*    list-style: disc;*/
+/*}*/
+
+ul li::marker {
+    color: #5c646e;
+    font-size: 1.5rem;
+    left: 0;
+}
+
+.liWrapper {
+    position: relative;
+    padding-left: 22px;
+}
+
+.liWrapper:before {
+    content: '\2022';
+    display: block;
+    color: #5c646e;
+    font-size: 1.5rem;
+    width: 22px;
+    height: 14px;
+    left: 8px;
+    top: 1px;
+    position: absolute;
+    pointer-events: none;
+}
+
+div > li > ul > .liWrapper {
+    padding-left: 17px;
+}
+
+div > li > ul > .liWrapper:before {
+    left: 3px;
+}

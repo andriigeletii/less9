@@ -21,3 +21,28 @@
     text-align: right;
     background-color: #95161f;
 }
+
+.breadCrumbs {
+    background-color: #f3f3f3;
+    padding: 8px 25px 7px;
+}
+
+.breadCrumbsList {
+
+}
+
+.breadCrumbsListItem {
+    display: inline-block;
+    font-size: 0.6875rem;
+}
+
+.breadCrumbsListItem a {
+    color: #95161f;
+
+}
+
+.breadCrumbsListItem:not(:nth-last-of-type(1)):after {
+    content: '/';
+    color: #6b6f74;
+    padding-left: 2px;
+}

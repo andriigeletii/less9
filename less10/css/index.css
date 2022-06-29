@@ -1,11 +1,25 @@
 @import "header.css";
 @import "reset.css";
 @import "nav.css";
+@import "main.css";
+@import "myframework.css";
 
 body, html {
     font-size: 16px;
+    font-family: "Arial";
 }
 
+body {
+    background-color: #e0e1e7;
+}
+
+.bgwhite {
+    background-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
 p {
     margin: 0;
 }
