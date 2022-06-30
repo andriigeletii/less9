@@ -46,6 +46,13 @@ article h2 {
     padding: 28px 0 20px;
 }
 
+.articleMainCard {
+    max-height: 270px;
+    overflow: hidden;
+    vertical-align: top;
+    counter-reset: li 0;
+}
+
 .articleMain > div {
     display: inline-block;
 }
@@ -74,11 +81,11 @@ h4 span {
 /*    list-style: disc;*/
 /*}*/
 
-ul li::marker {
-    color: #5c646e;
-    font-size: 1.5rem;
-    left: 0;
-}
+/*ul li::marker {*/
+/*    color: #5c646e;*/
+/*    font-size: 1.5rem;*/
+/*    left: 0;*/
+/*}*/
 
 .liWrapper {
     position: relative;
@@ -105,3 +112,19 @@ div > li > ul > .liWrapper {
 div > li > ul > .liWrapper:before {
     left: 3px;
 }
+
+.articleMainCard {
+    padding-bottom: 30px;
+    max-height: 270px;
+    overflow: hidden;
+}
+
+.articleMainCard > ol li:before {
+    content: counter(li) ".";
+    counter-increment: li;
+    padding: 0 3px;
+    font: 400 0.875rem / 1.5rem "Arial";
+    color: #5c646e;
+}
+
+
