@@ -1,3 +1,56 @@
+table {
+    border: 2px solid #ffffff;
+    border-collapse: collapse;
+    padding-bottom: 60px;
+}
+
 th, td {
     border: 1px solid #d8dbde;
+}
+
+table a {
+    color: #d08b98;
+}
+
+th {
+    background-color: #9c4757;
+    color: #ffffff;
+    font: 700 0.75rem / 1.25rem "Arial";
+    text-align: center;
+    padding: 13px 15px 10px 18px;
+    text-shadow: 1px 0 1px #ffffff;
+}
+
+td {
+    background-color: #282d33;
+    color: #9da4af;
+    font: 400 0.75rem / 1.5rem "Arial";
+    text-align: left;
+    padding: 11px 35px 13px 15px;
+}
+
+.firstTd {
+    font: 400 0.875rem / 1.25rem "Arial";
+    text-align: center;
+    padding: 11px 0 12px 0;
+}
+
+.lastTd {
+    padding-bottom: 7px;
+}
+
+.borderTopLeftRadius {
+    border-top-left-radius: 7px;
+}
+
+.borderTopRightRadius {
+    border-top-right-radius: 7px;
+}
+
+.borderBottomLeftRadius {
+    border-bottom-left-radius: 7px;
+}
+
+.borderBottomRightRadius {
+    border-bottom-right-radius: 7px;
 }

@@ -1,0 +1,113 @@
+.footer {
+    background-color: #252d33;
+    border-top: 8px solid #ae4b5d;
+}
+
+.footerHours {
+    float: left;
+}
+
+.footerLocation {
+    float: right;
+}
+
+.footerLocal {
+    margin: 0 auto;
+}
+
+.footer .container > div {
+    display: inline-block;
+    width: 270px;
+    /*text-align: center;*/
+}
+
+.footer .container {
+    text-align: center;
+}
+
+
+.footer .container {
+    padding: 32px 5px 28px;
+}
+
+footer h2 {
+    /*display: inline-block;*/
+    color: #a5adb8;
+    font: 400 1.125rem 'Arial';
+    padding-bottom: 10px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer ol li, h4 {
+    color: #85898f;
+    font: 400 0.75rem 'Arial';
+    padding-bottom: 13px;
+}
+
+footer li {
+
+}
+
+footer a {
+    color: #d08b98;
+}
+
+footer ol {
+    padding: 12px 0 14px;
+}
+
+.footerHoursTittle, .footerLocalTittle, .footerLocationTittle {
+    border-bottom: 1px solid #191c20;
+    box-shadow: 0 1px #40474f;
+
+}
+
+.footerHours, .footerLocal, .footerLocation {
+   text-align: left;
+}
+
+.footerHoursLiWrapper {
+    position: relative;
+    padding-left: 30px;
+}
+
+.footerHoursLiWrapper:before {
+    content: url(../image/clock.png);
+    display: block;
+    color: #9c4757;
+    font-size: 1.5rem;
+    width: 22px;
+    /*height: 14px;*/
+    left: 5px;
+    top: -7px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.footerLocalLiWrapper {
+    position: relative;
+    padding-left: 22px;
+}
+
+.footerLocalLiWrapper:before {
+    content: '\2022';
+    display: block;
+    color: #9c4757;
+    font-size: 1.5rem;
+    width: 22px;
+    /*height: 14px;*/
+    left: 3px;
+    top: -4px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.footerLocal ol > li:last-of-type {
+    color: #a5adb8;
+    padding-left: 5px;
+    font: 700 0.875rem 'Arial';
+    text-shadow: 1px 0 1px;
+}
